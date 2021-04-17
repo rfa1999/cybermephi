@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>cyber</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/demo-page.css" rel="stylesheet">
+	<!-- стили модального окна -->
+	<link rel="stylesheet" href="css/style-modal.css" rel="stylesheet">
+    
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/enjoyhint.css" rel="stylesheet">
+    
+    <style>
+      [data-tooltip] {
+       position: relative; /* Относительное позиционирование */ 
+      }
+      [data-tooltip]::after {
+       content: attr(data-tooltip); /* Выводим текст */
+       position: absolute; /* Абсолютное позиционирование */
+       width: 300px; /* Ширина подсказки */
+       left: 0; top: 0; /* Положение подсказки */
+       background: #3989c9; /* Синий цвет фона */
+       color: #fff; /* Цвет текста */
+       padding: 0.5em; /* Поля вокруг текста */
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+       pointer-events: none; /* Подсказка */
+       opacity: 0; /* Подсказка невидима */
+       transition: 1s; /* Время появления подсказки */
+      } 
+      [data-tooltip]:hover::after {
+       opacity: 1; /* Показываем подсказку */
+       top: 2em; /* Положение подсказки */
+      }
+     </style>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	 
+	
+ 
+	
+  </head>
+
+  <body role="document">
+    <img src="img/logo.png"  class="new_btn0 btn btn-lg btn-primary">
+    <div class="container">
+   
+      <div style="text-align: center;">
+          <a href="#win2" class="button button-red">кнопка</a>
+  </div>
+   
+      <!-- Модальное окно 2 -->
+      <a href="#x" class="overlay" id="win2"></a>
+      <div class="popup">
+          <div>
+              <div id="poisk">
+                  <input type="text" id="search" autocomplete="off">
+                  <h4 id="results-text">Ищем: <b id="search-string">Array</b></h4>
+                  <ul id="results"></ul>
+                  </div>
+                   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+                  <script type="text/javascript" src="scripts/custom.js"></script>
+          
+          
+          
+          
+          <a class="close" title="Закрыть" href="#close"></a>
+
+          <p data-tooltip="Всплывающая подсказка сообщает о чём-то многозначном и полезном...">
+              Добавте темную тему.</p><br>
+              <p data-tooltip="Всплывающая подсказка сообщает о чём-то многозначном и полезном...">
+               Нехватает картинок.</p><br>
+               <p data-tooltip="Убейся об стену, дружок :3">
+                Ужастная поддержка пользователей.</p><br>
+                 <p data-tooltip="Всплывающая подсказка сообщает о чём-то многозначном и полезном...">
+                   Не могу зарегестрироваться.</p><br>
+
+
+      </div>
+      
+      </div>
+  </div>
+
+
+
+
+    <!-- Fixed navbar -->
+   
+   
+
+
+      <p>
+        <button type="button" class="new_btn btn btn-lg btn-primary">Проекты</button>
+        <button type="button" class="new_btn2 btn btn-lg btn-primary">Обучение</button>
+        <button type="button" class="new_btn3 btn btn-lg btn-primary">Трек развития</button>
+        <button type="button" class="new_btn4 btn btn-lg btn-primary">Окончание</button>
+      </p>
+
+      
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    
+    
+    
+    <script src="js/enjoyhint.js"></script>
+	
+	 
+  	
+  	<script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+::selection{background:#4096ee;color:#fff;}
+::-moz-selection{background:#4096ee;color:#fff;}
+::-webkit-selection{background:#4096ee;color:#fff;}
+body{margin:0;padding:0;color:#666;}
+#poisk{
+margin:14px auto 0;
+padding:0;
+width: 280px;
+min-height:46px;
+background-image: url("../images/poisk.png");
+background-origin: padding-box;
+background-repeat: no-repeat;
+background-size:280px auto;
+}
+#poisk h4 {
+margin: 16px 0 2px 4px;
+padding:0;
+color: #900000;
+font-family:Verdana,Arial,sans-serif;
+font-size:12px;
+line-height:1.6em;
+text-decoration:none;
+font-weight:normal;
+}
+#poisk h4 b {
+color:#333;
+font-style:italic;
+font-weight:normal;
+}
+ul#results li a {
+outline:medium none;
+text-decoration:none;
+}
+input#search {
+background: transparent none repeat scroll 0 0;
+border: medium none;
+color: #ababab;
+font-size: 16px;
+height: 18px;
+line-height: 20px;
+margin-left: 14px;
+margin-top: 12px;
+outline: medium none;
+padding: 0;
+width: 218px;
+}
+input#search:hover, input#search:focus {
+color: #3b3b3b;
+}
+h4#results-text {
+display: none;
+}
+ul#results {
+display: none;
+list-style-type:none;
+width:270px;
+max-height: 204px;
+margin:4px 0 0;
+padding:2px 4px;
+border: 1px solid #900000;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,.15) 0 1px 3px;
+box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+overflow-y:auto;
+}
+ul#results li {
+margin: 0;
+padding: 0 4px 6px;
+cursor: pointer;
+border-top: 1px solid #cdcdcd;
+transition: background-color .3s ease-in-out;
+-moz-transition: background-color .3s ease-in-out;
+-webkit-transition: background-color .3s ease-in-out;
+}
+ul#results li:hover {
+background-color: #F7F7F7;
+}
+ul#results li:first-child {
+border-top: none;
+}
+ul#results li h3, ul#results li h4 {
+margin:2px 0 0;
+padding: 0;
+transition: color .3s ease-in-out;
+-moz-transition: color .3s ease-in-out;
+-webkit-transition: color .3s ease-in-out;
+color: #616161;
+line-height: 1.2em;
+font-weight: normal;
+}
+ul#results li h3 {
+color:#616161;
+font-family:Arial;
+font-size:13px;
+}
+ul#results li h4{
+display:none;
+}
+ul#results li:hover h3{
+color: #900000;
+}
