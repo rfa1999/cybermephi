@@ -52,7 +52,7 @@ var array_enjoy = [
 		},
 		skipButton:{
 			className:'myClass',
-			text:'Пропусть'
+			text:'Пропустить'
 		},
 		
 		showSkip:true,
@@ -69,7 +69,7 @@ var array_enjoy = [
 		},
 		skipButton:{
 			className:'myClass',
-			text:'Пропусть'
+			text:'Пропустить'
 		},
 		description:'Тут у вас есть возможность приобрести и улучшить свои профессиональные навыки. ',
 		showNext:true,
@@ -85,7 +85,7 @@ var array_enjoy = [
 		},
 		skipButton:{
 			className:'myClass',
-			text:'Пропусть'
+			text:'Пропустить'
 		},
 		description:'В какой сфере вас ждет успех? Какие навыки вас для этого понадобиться и как их получить? За ответами сюда!',
 		showNext:true,
@@ -97,7 +97,7 @@ var array_enjoy = [
 		'click .new_btn4':'Если понадобиться помощь, обращайтесь.',
 		skipButton:{
 			className:'myClass',
-			text:'Пропусть'
+			text:'Пропустить'
 		},
 	}
 
